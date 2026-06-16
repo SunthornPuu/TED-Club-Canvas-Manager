@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #F9F9F9;
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.3px;
+    font-weight: 400;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    color: #000000;
+    letter-spacing: -0.5px;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 1.875rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  a {
+    color: #E62B1F;
+    transition: color 300ms;
+  }
+
+  a:hover {
+    color: #C41E17;
+  }
+}
+
+@layer components {
+  .btn-tedx {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 300ms;
+    letter-spacing: 0.5px;
+  }
+
+  .btn-tedx-primary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 300ms;
+    letter-spacing: 0.5px;
+    background-color: #E62B1F;
+    color: white;
+    box-shadow: 0 4px 12px rgba(230, 43, 31, 0.15);
+  }
+
+  .btn-tedx-primary:hover {
+    background-color: #C41E17;
+    box-shadow: 0 8px 24px rgba(230, 43, 31, 0.2);
+  }
+
+  .btn-tedx-secondary {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 300ms;
+    letter-spacing: 0.5px;
+    color: #E62B1F;
+    background-color: white;
+    border: 2px solid #E62B1F;
+  }
+
+  .btn-tedx-secondary:hover {
+    background-color: #F9F9F9;
+  }
+
+  .btn-tedx-ghost {
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    transition: all 300ms;
+    letter-spacing: 0.5px;
+    color: #E62B1F;
+  }
+
+  .btn-tedx-ghost:hover {
+    background-color: #E62B1F;
+    color: white;
+  }
+
+  .card-tedx {
+    background-color: white;
+    border: 1px solid #E8E8E8;
+    border-radius: 0.75rem;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(230, 43, 31, 0.1);
+    transition: all 300ms;
+  }
+
+  .card-tedx:hover {
+    box-shadow: 0 4px 12px rgba(230, 43, 31, 0.15);
+  }
+
+  .badge-tedx {
+    display: inline-block;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .badge-tedx-red {
+    background-color: #E62B1F;
+    color: white;
+  }
+
+  .badge-tedx-gray {
+    background-color: #E8E8E8;
+    color: #333333;
+  }
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .section-header h2 {
+    margin-bottom: 1rem;
+  }
+
+  .section-header p {
+    font-size: 1.125rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: #808080;
+  }
+
+  .tedx-divider {
+    height: 0.25rem;
+    width: 4rem;
+    border-radius: 9999px;
+    background-color: #E62B1F;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="95" fill="#F9F9F9" stroke="#E62B1F" stroke-width="2"/>
+  
+  <!-- Main TEDx text mark -->
+  <g>
+    <!-- "TED" in bold black -->
+    <text x="50" y="75" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="800" fill="#000000" letter-spacing="-2">TED</text>
+  </g>
+  
+  <!-- Decorative red accent line -->
+  <line x1="50" y1="95" x2="150" y2="95" stroke="#E62B1F" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Subtitle "IDEAS" -->
+  <text x="100" y="135" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#808080" text-anchor="middle" letter-spacing="3">WORTH SHARING</text>
+  
+  <!-- Corner accent dots -->
+  <circle cx="25" cy="25" r="3" fill="#E62B1F" opacity="0.6"/>
+  <circle cx="175" cy="175" r="3" fill="#E62B1F" opacity="0.6"/>
+</svg>

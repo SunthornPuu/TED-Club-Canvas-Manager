@@ -1,0 +1,7 @@
+<svg width="300" height="100" viewBox="0 0 300 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- "TED" in bold black -->
+  <text x="10" y="75" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" fill="#000000" letter-spacing="-3">TED</text>
+  
+  <!-- Red accent underline -->
+  <rect x="10" y="85" width="240" height="4" fill="#E62B1F" rx="2"/>
+</svg>
